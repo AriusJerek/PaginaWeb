@@ -1,0 +1,67 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 320px;
+  }
+  
+  .card img {
+    border-radius: 50%;
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .redes {
+    margin: 15px 0;
+  }
+  
+  .redes a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .redes a:hover {
+    color: #005fa3;
+  }
+  
+  button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
